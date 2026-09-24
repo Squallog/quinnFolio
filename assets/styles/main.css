@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+:root {
+    font-family:'Consolas', 'Inconsolata', Courier, monospace;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    position: absolute;
+}
+
+canvas {
+    z-index: 0;
+    position: fixed;
+    top: 0;
+}
+
+.pageWrapper {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header, main {
+    margin: 10px auto 10px auto;
+    padding: 8px;
+    background-color: rgb(251, 253, 255);
+    background-image: url(/assets/images/background.jpg);
+    background-size: cover;
+    border: 2px rgb(212, 198, 172) solid;
+    text-shadow: 2px 2px 5px rgb(70, 69, 69);
+}
+
+main {
+    width: 80vw;
+    z-index: 2;
+}
+
+header {
+    position: sticky;
+    top: 8px;
+    min-width: 40vw;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+footer {
+    text-align: center;
+}
