@@ -32,7 +32,7 @@ canvas {
     flex-direction: column;
 }
 
-header, main, footer {
+header, main {
     margin: 10px auto 10px auto;
     padding: 8px;
     background-color: rgb(251, 253, 255);
@@ -58,4 +58,8 @@ iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
     border: none;
+}
+
+footer {
+    text-align: center;
 }
