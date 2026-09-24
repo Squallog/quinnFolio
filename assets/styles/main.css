@@ -36,7 +36,7 @@ header, main {
     margin: 10px auto 10px auto;
     padding: 8px;
     background-color: rgb(251, 253, 255);
-    background-image: url(/assets/images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     border: 2px rgb(212, 198, 172) solid;
     text-shadow: 2px 2px 5px rgb(70, 69, 69);
